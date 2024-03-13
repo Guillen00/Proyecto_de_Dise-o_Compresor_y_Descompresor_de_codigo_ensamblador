@@ -1,7 +1,8 @@
-# Función para leer el archivo de salida y realizar las transformaciones
-def leer_y_transformar(archivo_salida):
+def leer_y_transformar(archivo_salida, archivo_codigo, archivo_tabla):
     codigo_con_tokens = []
     tabla_traduccion = {}
+    leyendo_codigo = None
+    
     with open(archivo_salida, 'r') as archivo:
         for linea in archivo:
             if linea.startswith("Código con tokens:"):
@@ -14,6 +15,11 @@ def leer_y_transformar(archivo_salida):
                 token, instruccion = linea.strip().split(": ")
                 tabla_traduccion[token] = instruccion
     
+    # Escribir la tabla de traducción en un archivo separado
+    with open(archivo_tabla, 'w') as file:
+        for token, instruccion in tabla_traduccion.items():
+            file.write(f"{token}: {instruccion}\n")
+    
     # Realizar transformaciones en el código
     codigo_final = []
     i = 0
@@ -25,21 +31,17 @@ def leer_y_transformar(archivo_salida):
             codigo_final.append(tabla_traduccion.get(codigo_con_tokens[i], codigo_con_tokens[i]))
         i += 1
     
-    return codigo_final, tabla_traduccion
+    # Escribir el código final en un archivo separado
+    with open(archivo_codigo, 'w') as file:
+        for instruccion in codigo_final:
+            file.write(instruccion + "\n")
 
 # Nombre de archivo de salida
 archivo_salida = "Compiler/Code_tokens.txt"
+archivo_codigo = "Compiler/codigo_final.txt"
+archivo_tabla = "Compiler/tabla_traduccion.txt"
 
 # Leer el archivo de salida y realizar transformaciones
-codigo_final, tabla_traduccion = leer_y_transformar(archivo_salida)
+leer_y_transformar(archivo_salida, archivo_codigo, archivo_tabla)
 
-# Reescribir el archivo original con el código final y la tabla de traducción
-with open(archivo_salida, 'w') as archivo:
-    archivo.write("Código con tokens:\n")
-    for instruccion in codigo_final:
-        archivo.write(instruccion + "\n")
-    archivo.write("\nTabla de traducción:\n")
-    for token, instruccion in tabla_traduccion.items():
-        archivo.write(f"{token}: {instruccion}\n")
-
-print("Se ha actualizado el archivo con el código final y la tabla de traducción.")
+print("Se han actualizado los archivos con el código final y la tabla de traducción.")
