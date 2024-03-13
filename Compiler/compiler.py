@@ -44,7 +44,7 @@ opCode = {
     "JT": "10",
     "JNT": "11",
 }
-
+#Type of operation
 type = {
 
     # Data-Reg:
@@ -824,15 +824,18 @@ def toBinary(file, instructionsList, type, opCode, registersIdentifiers, labels)
 
     return instructionsList
 
-
+#Give instructions in assambler code and binary
 testInstructions = getInstructions('Compiler/PRUEBA.txt')
 print("Instructions: ", testInstructions)
 
+#Give Risk
 testInstructions = riskManagement(testInstructions, type, opCode)
 print("Instructions Risk First: ", testInstructions)
 
+#Give Labels
 labelsTest, testInstructions = getLabels(testInstructions)
 print("Labels: ", labelsTest)
 print("No labels: ", testInstructions)
 
+#Give binary
 toBinary('Compiler/binary.txt', testInstructions, type, opCode, registersIdentifiers, labelsTest)

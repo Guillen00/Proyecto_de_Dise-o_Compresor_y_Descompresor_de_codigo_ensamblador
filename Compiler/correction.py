@@ -1,9 +1,10 @@
-def leer_y_transformar(archivo_salida, archivo_codigo, archivo_tabla):
+# Read and tranform the code with traduction table
+def read_and_transform(output_file, code_file, table_file):
     codigo_con_tokens = []
     tabla_traduccion = {}
     leyendo_codigo = None
     
-    with open(archivo_salida, 'r') as archivo:
+    with open(output_file, 'r') as archivo:
         for linea in archivo:
             if linea.startswith("Código con tokens:"):
                 leyendo_codigo = True
@@ -15,12 +16,12 @@ def leer_y_transformar(archivo_salida, archivo_codigo, archivo_tabla):
                 token, instruccion = linea.strip().split(": ")
                 tabla_traduccion[token] = instruccion
     
-    # Escribir la tabla de traducción en un archivo separado
-    with open(archivo_tabla, 'w') as file:
+    # Write the translation table to a separate file
+    with open(table_file, 'w') as file:
         for token, instruccion in tabla_traduccion.items():
             file.write(f"{token}: {instruccion}\n")
     
-    # Realizar transformaciones en el código
+    # Perform transformations in the code
     codigo_final = []
     i = 0
     while i < len(codigo_con_tokens):
@@ -31,17 +32,17 @@ def leer_y_transformar(archivo_salida, archivo_codigo, archivo_tabla):
             codigo_final.append(tabla_traduccion.get(codigo_con_tokens[i], codigo_con_tokens[i]))
         i += 1
     
-    # Escribir el código final en un archivo separado
-    with open(archivo_codigo, 'w') as file:
+    # Write the final code to a separate file
+    with open(code_file, 'w') as file:
         for instruccion in codigo_final:
             file.write(instruccion + "\n")
 
-# Nombre de archivo de salida
-archivo_salida = "Compiler/Code_tokens.txt"
-archivo_codigo = "Compiler/codigo_final.txt"
-archivo_tabla = "Compiler/tabla_traduccion.txt"
+# Output file name
+output_file = "Compiler/Code_tokens.txt"
+code_file = "Compiler/final_code.txt"
+table_file = "Compiler/traduction_table.txt"
 
-# Leer el archivo de salida y realizar transformaciones
-leer_y_transformar(archivo_salida, archivo_codigo, archivo_tabla)
+# Read the output file and perform transformations
+read_and_transform(output_file, code_file, table_file)
 
-print("Se han actualizado los archivos con el código final y la tabla de traducción.")
+print("The files with the final code and the translation table have been updated.")

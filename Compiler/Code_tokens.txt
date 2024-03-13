@@ -29,8 +29,10 @@ A
 A
 A
 A
-81c00000
+C
+C
 
 Tabla de traducción:
 A: 80000000
 B: b1a16120
+C: 81c00000
