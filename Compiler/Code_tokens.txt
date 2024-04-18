@@ -2,37 +2,37 @@ Código con tokens:
 b0200005
 b0400190
 b061adb0
-A
-A
-A
+a
+a
+a
 b087adb0
 b0a00001
 b0c00001
-B
-B
+b
+b
 b1800028
 b1416120
 62c80000
-A
-A
-A
+a
+a
+a
 42e80000
 22d0000c
-A
-A
-A
-A
+a
+a
+a
+a
 b0440001
 b1540001
 0ffffff3
-A
-A
-A
-A
-C
-C
+a
+a
+a
+a
+c
+c
 
 Tabla de traducción:
-A: 80000000
-B: b1a16120
-C: 81c00000
+a: 80000000
+b: b1a16120
+c: 81c00000

@@ -19,7 +19,7 @@ def read_and_transform(output_file, code_file, table_file):
     # Write the translation table to a separate file
     with open(table_file, 'w') as file:
         for token, instruccion in tabla_traduccion.items():
-            file.write(f"{token}: {instruccion}\n")
+            file.write(f"{token}{instruccion}\n")
     
     # Perform transformations in the code
     codigo_final = []
