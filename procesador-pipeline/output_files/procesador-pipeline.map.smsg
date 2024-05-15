@@ -1,0 +1,1 @@
+Warning (10273): Verilog HDL warning at sign_extend.sv(18): extended using "x" or "z" File: /home/guillen/Documents/TEC/Proyecto diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/procesador-pipeline/sign_extend.sv Line: 18
