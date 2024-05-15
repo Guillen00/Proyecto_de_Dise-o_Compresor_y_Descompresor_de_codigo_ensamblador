@@ -1,0 +1,62 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/guillen/intelFPGA_lite/22.1std/simulation/modelsim
+vm_descompresor
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1713391211
+!i10b 1
+!s100 `GbheM]LFV=VPdRC8PZ[o3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IT`Rc1i=GC>L5[<=La`2zC0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1711166399
+8/home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv
+F/home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv
+!i122 0
+Z4 L0 1 48
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1713391211.000000
+!s107 /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/guillen/intelFPGA_lite/22.1std|/home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv|
+!i113 1
+o-sv -work work
+!s92 -sv -work work +incdir+/home/guillen/intelFPGA_lite/22.1std
+Z6 tCvgOpt 0
+vtb_m_descompresor
+R1
+!s110 1713391276
+!i10b 1
+!s100 ZYdjiWLMjFR8YzfLFAOV40
+R2
+I_aioLR_2?J^Y34EG7AI1C0
+R3
+S1
+R0
+w1711164642
+8/home/guillen/intelFPGA_lite/22.1std/tb_m_descompresor.sv
+F/home/guillen/intelFPGA_lite/22.1std/tb_m_descompresor.sv
+!i122 1
+R4
+R5
+r1
+!s85 0
+31
+!s108 1713391275.000000
+!s107 /home/guillen/intelFPGA_lite/22.1std/tb_m_descompresor.sv|
+!s90 -reportprogress|300|-work|work|/home/guillen/intelFPGA_lite/22.1std/tb_m_descompresor.sv|
+!i113 1
+o-work work
+R6
