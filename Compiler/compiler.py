@@ -28,12 +28,14 @@ opCode = {
     "MULR": "00010",
     "DIVR": "00011",
     "XOR":  "00100",
+    "TEST":  "00110",
 
     # Data-Imm:
     "ADDI": "11000",
     "SUBI": "11001",
     "MULI": "11010",
     "DIVI": "11011",
+    "CMP": "11101",
 
     # Memory:
     "SOM": "0",
@@ -44,7 +46,7 @@ opCode = {
     "JT": "10",
     "JNT": "11",
 }
-#Type of operation
+
 type = {
 
     # Data-Reg:
@@ -53,12 +55,14 @@ type = {
     "MULR": "10",
     "DIVR": "10",
     "XOR":  "10",
+    "TEST":  "10",
 
     # Data-Imm:
     "ADDI": "10",
     "SUBI": "10",
     "MULI": "10",
     "DIVI": "10",
+    "CMP": "10",
 
     # Memory:
     "SOM": "01",
@@ -824,18 +828,15 @@ def toBinary(file, instructionsList, type, opCode, registersIdentifiers, labels)
 
     return instructionsList
 
-#Give instructions in assambler code and binary
+
 testInstructions = getInstructions('Compiler/PRUEBA.txt')
 print("Instructions: ", testInstructions)
 
-#Give Risk
 testInstructions = riskManagement(testInstructions, type, opCode)
 print("Instructions Risk First: ", testInstructions)
 
-#Give Labels
 labelsTest, testInstructions = getLabels(testInstructions)
 print("Labels: ", labelsTest)
 print("No labels: ", testInstructions)
 
-#Give binary
 toBinary('Compiler/binary.txt', testInstructions, type, opCode, registersIdentifiers, labelsTest)
