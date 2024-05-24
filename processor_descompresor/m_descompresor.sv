@@ -12,7 +12,7 @@ module m_descompresor(input logic [31:0] pc,
 	 $readmemh("/home/guillen/Documents/VectorArchitecture-Develop/procesador-pipeline/traduction_table.txt", translator_table);
 	 end
 
-    // Escribe en memoria 	
+    // Write Memory	
     always_ff @(pc)
         begin
 			  //count of pc
@@ -26,12 +26,7 @@ module m_descompresor(input logic [31:0] pc,
 				  //here identify the token because has less value
 				  if (final_code[pc-less_pc] < 32'h00000010)begin
 						//search tokens in the translation table
-						case (final_code[pc-less_pc])
-							4'ha: instruction_tmp = translator_table[0][31:0];
-							4'hb: instruction_tmp = translator_table[1][31:0];
-							4'hc: instruction_tmp = translator_table[2][31:0];
-							default: instruction_tmp = translator_table[2][31:0];
-						endcase
+						instruction_tmp = translator_table[final_code[pc-less_pc]][31:0];
 						//Save the instruction on the buffer
 						buffer = instruction_tmp;
 						counter_tmp = 4'h1;
@@ -41,13 +36,7 @@ module m_descompresor(input logic [31:0] pc,
 						//Take out the normal instruction
 						instruction_tmp = final_code[pc-less_pc];
 				  end 
-			  
 			  end
         end
      assign instruction = instruction_tmp;
-
-
-
-
-
 endmodule
