@@ -28,6 +28,9 @@ module testbench();
 		
 		switchStart = 1;
 		
+		#100;
+		$finish;
+		
 	end
 		
 endmodule

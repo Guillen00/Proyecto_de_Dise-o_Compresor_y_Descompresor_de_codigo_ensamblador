@@ -7,9 +7,10 @@ module memoryController (input logic clk, we, switchStart,
 						 
 	dmem_ram ram (switchStart, clk, we, mapAddressRAM, wd, ramData);
 	dmem_rom rom (mapAddressROM, romData);
-	imem imem_rom (mapAddressInstructions, instructionData);
+	//imem imem_rom (mapAddressInstructions, instructionData);
 	dmem_seno seno (mapAddressSENO, SENOData);
-	
+	m_descompresor imem_rom (.pc(mapAddressInstructions),.instruction(instructionData));
+
 	always_latch
 		begin
 		

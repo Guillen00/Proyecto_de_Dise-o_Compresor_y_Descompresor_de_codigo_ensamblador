@@ -1,5 +1,5 @@
 Flow report for Modulo_Descompresor
-Wed Apr 17 15:59:15 2024
+Fri May 10 19:29:19 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -41,7 +41,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +---------------------------------+------------------------------------------------+
-; Flow Status                     ; Successful - Wed Apr 17 15:59:15 2024          ;
+; Flow Status                     ; Successful - Fri May 10 19:29:19 2024          ;
 ; Quartus Prime Version           ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                   ; Modulo_Descompresor                            ;
 ; Top-level Entity Name           ; m_descompresor                                 ;
@@ -68,7 +68,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 04/17/2024 15:58:53 ;
+; Start date & time ; 05/10/2024 19:29:04 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Modulo_Descompresor ;
 +-------------------+---------------------+
@@ -79,7 +79,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------+----------------------------------------+---------------------+----------------+-----------------------------------+
 ; Assignment Name                     ; Value                                  ; Default Value       ; Entity Name    ; Section Id                        ;
 +-------------------------------------+----------------------------------------+---------------------+----------------+-----------------------------------+
-; COMPILER_SIGNATURE_ID               ; 180655743481036.171339113359273        ; --                  ; --             ; --                                ;
+; COMPILER_SIGNATURE_ID               ; 180655743481036.171539094444639        ; --                  ; --             ; --                                ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                  ; --             ; eda_board_design_timing           ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                  ; --             ; eda_board_design_boundary_scan    ;
 ; EDA_GENERATE_FUNCTIONAL_NETLIST     ; Off                                    ; --                  ; --             ; eda_board_design_signal_integrity ;
@@ -102,8 +102,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:21     ; 1.0                     ; 459 MB              ; 00:00:38                           ;
-; Total                ; 00:00:21     ; --                      ; --                  ; 00:00:38                           ;
+; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 456 MB              ; 00:00:31                           ;
+; Total                ; 00:00:15     ; --                      ; --                  ; 00:00:31                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

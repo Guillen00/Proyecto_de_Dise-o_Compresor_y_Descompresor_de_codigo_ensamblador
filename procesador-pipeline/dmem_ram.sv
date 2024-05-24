@@ -4,7 +4,7 @@ module dmem_ram(input logic switchStart, clk, we,
 
     logic [31:0] dmem_RAM[0:129599];
     always @(switchStart)
-    $writememh("/home/guillen/Documents/TEC/Proyecto diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/procesador-pipeline/imageOutput.txt", dmem_RAM);
+    $writememh("/home/guillen/Documents/VectorArchitecture-Develop/procesador-pipeline/imageOutput.txt", dmem_RAM);
 
 
     // Escribe en memoria 

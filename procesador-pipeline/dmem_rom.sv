@@ -7,7 +7,7 @@ module dmem_rom (input logic [31:0] address,
 	initial
 	
 		//Lee de memoria
-		$readmemh("/home/guillen/Documents/TEC/Proyecto diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/procesador-pipeline/imageData.txt", dmem_ROM);
+		$readmemh("/home/guillen/Documents/VectorArchitecture-Develop/procesador-pipeline/imageData.txt", dmem_ROM);
 		
 		
 	assign rd = dmem_ROM[address[31:0]];
