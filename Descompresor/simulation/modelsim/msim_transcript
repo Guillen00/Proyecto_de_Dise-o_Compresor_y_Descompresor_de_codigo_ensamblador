@@ -12,7 +12,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_ver {/home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:59:46 on Apr 17,2024
+# Start time: 19:30:25 on May 10,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_ver /home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_primitives.v 
 # -- Compiling module global
 # -- Compiling module carry
@@ -94,7 +94,7 @@
 # 	alt_iobuf_diff
 # 	alt_bidir_diff
 # 	alt_bidir_buf
-# End time: 15:59:48 on Apr 17,2024, Elapsed time: 0:00:02
+# End time: 19:30:26 on May 10,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/lpm_ver
@@ -105,7 +105,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work lpm_ver {/home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/220model.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:59:49 on Apr 17,2024
+# Start time: 19:30:27 on May 10,2024
 # vlog -reportprogress 300 -vlog01compat -work lpm_ver /home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/220model.v 
 # -- Compiling module LPM_MEMORY_INITIALIZATION
 # -- Compiling module LPM_HINT_EVALUATION
@@ -169,7 +169,7 @@
 # 	lpm_inpad
 # 	lpm_outpad
 # 	lpm_bipad
-# End time: 15:59:49 on Apr 17,2024, Elapsed time: 0:00:00
+# End time: 19:30:27 on May 10,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/sgate_ver
@@ -180,7 +180,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work sgate_ver {/home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/sgate.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:59:49 on Apr 17,2024
+# Start time: 19:30:27 on May 10,2024
 # vlog -reportprogress 300 -vlog01compat -work sgate_ver /home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/sgate.v 
 # -- Compiling module oper_add
 # -- Compiling module oper_addsub
@@ -222,7 +222,7 @@
 # 	oper_decoder
 # 	oper_bus_mux
 # 	oper_latch
-# End time: 15:59:49 on Apr 17,2024, Elapsed time: 0:00:00
+# End time: 19:30:27 on May 10,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_mf_ver
@@ -233,7 +233,7 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work altera_mf_ver {/home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_mf.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:59:50 on Apr 17,2024
+# Start time: 19:30:27 on May 10,2024
 # vlog -reportprogress 300 -vlog01compat -work altera_mf_ver /home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_mf.v 
 # -- Compiling module lcell
 # -- Compiling module ALTERA_MF_MEMORY_INITIALIZATION
@@ -363,7 +363,7 @@
 # 	alt_fault_injection
 # 	sld_virtual_jtag_basic
 # 	altsource_probe
-# End time: 15:59:52 on Apr 17,2024, Elapsed time: 0:00:02
+# End time: 19:30:29 on May 10,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/altera_lnsim_ver
@@ -374,7 +374,7 @@
 # Modifying modelsim.ini
 # vlog -sv -work altera_lnsim_ver {/home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:59:52 on Apr 17,2024
+# Start time: 19:30:29 on May 10,2024
 # vlog -reportprogress 300 -sv -work altera_lnsim_ver /home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/altera_lnsim.sv 
 # -- Compiling package altera_lnsim_functions
 # -- Compiling package altera_generic_pll_functions
@@ -457,7 +457,7 @@
 # 	altera_iopll
 # 	fourteennm_altera_iopll
 # 	fourteennm_simple_iopll
-# End time: 15:59:54 on Apr 17,2024, Elapsed time: 0:00:02
+# End time: 19:30:30 on May 10,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_ver
@@ -468,23 +468,23 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_ver {/home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:59:54 on Apr 17,2024
+# Start time: 19:30:30 on May 10,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver /home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 15:59:57 on Apr 17,2024, Elapsed time: 0:00:03
+# End time: 19:30:32 on May 10,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {/home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 15:59:57 on Apr 17,2024
+# Start time: 19:30:33 on May 10,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver /home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hmi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 16:00:03 on Apr 17,2024, Elapsed time: 0:00:06
+# End time: 19:30:34 on May 10,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_ver {/home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:00:03 on Apr 17,2024
+# Start time: 19:30:34 on May 10,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_ver /home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_atoms.v 
 # -- Compiling UDP CYCLONEV_PRIM_DFFE
 # -- Compiling UDP CYCLONEV_PRIM_DFFEAS
@@ -624,7 +624,7 @@
 # 	cyclonev_mem_phy
 # 	cyclonev_oscillator
 # 	cyclonev_hps_interface_fpga2sdram
-# End time: 16:00:04 on Apr 17,2024, Elapsed time: 0:00:01
+# End time: 19:30:35 on May 10,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_hssi_ver
@@ -635,15 +635,15 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_hssi_ver {/home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:00:04 on Apr 17,2024
+# Start time: 19:30:35 on May 10,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver /home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_hssi_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 16:00:06 on Apr 17,2024, Elapsed time: 0:00:02
+# End time: 19:30:37 on May 10,2024, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_hssi_ver {/home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:00:06 on Apr 17,2024
+# Start time: 19:30:37 on May 10,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_hssi_ver /home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_hssi_atoms.v 
 # -- Compiling module cyclonev_hssi_8g_pcs_aggregate
 # -- Compiling module cyclonev_hssi_8g_rx_pcs
@@ -743,7 +743,7 @@
 # 	arriav_hssi_avmm_interface
 # 	arriav_hssi_pma_hi_pmaif
 # 	arriav_hssi_pma_hi_xcvrif
-# End time: 16:00:06 on Apr 17,2024, Elapsed time: 0:00:00
+# End time: 19:30:37 on May 10,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlib verilog_libs/cyclonev_pcie_hip_ver
@@ -754,22 +754,22 @@
 # Modifying modelsim.ini
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {/home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:00:07 on Apr 17,2024
+# Start time: 19:30:37 on May 10,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver /home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/mentor/cyclonev_pcie_hip_atoms_ncrypt.v 
 # 
 # Top level modules:
-# End time: 16:00:10 on Apr 17,2024, Elapsed time: 0:00:03
+# End time: 19:30:40 on May 10,2024, Elapsed time: 0:00:03
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work cyclonev_pcie_hip_ver {/home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:00:10 on Apr 17,2024
+# Start time: 19:30:40 on May 10,2024
 # vlog -reportprogress 300 -vlog01compat -work cyclonev_pcie_hip_ver /home/guillen/intelFPGA_lite/22.1std/quartus/eda/sim_lib/cyclonev_pcie_hip_atoms.v 
 # -- Compiling module cyclonev_hd_altpe2_hip_top
 # -- Compiling module arriav_hd_altpe2_hip_top
 # 
 # Top level modules:
 # 	cyclonev_hd_altpe2_hip_top
-# End time: 16:00:10 on Apr 17,2024, Elapsed time: 0:00:00
+# End time: 19:30:40 on May 10,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # if {[file exists rtl_work]} {
@@ -781,58 +781,18 @@
 # vmap work rtl_work 
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+/home/guillen/intelFPGA_lite/22.1std {/home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv}
+# vlog -sv -work work +incdir+/home/guillen/Documents/TEC/Proyecto_dise駉/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor {/home/guillen/Documents/TEC/Proyecto_dise駉/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:00:11 on Apr 17,2024
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/guillen/intelFPGA_lite/22.1std" /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv 
-# -- Compiling module m_descompresor
-# 
-# Top level modules:
-# 	m_descompresor
-# End time: 16:00:11 on Apr 17,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# 
+# Start time: 19:30:40 on May 10,2024
+# vlog -reportprogress 300 -sv -work work "+incdir+/home/guillen/Documents/TEC/Proyecto_dise駉/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor" /home/guillen/Documents/TEC/Proyecto_dise駉/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv 
+# ** Error: (vlog-7) Failed to open design unit file "/home/guillen/Documents/TEC/Proyecto_dise駉/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv" in read mode.
+# No such file or directory. (errno = ENOENT)
+# End time: 19:30:40 on May 10,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: /home/guillen/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+# Error in macro ./Modulo_Descompresor_run_msim_rtl_verilog.do line 48
+# /home/guillen/intelFPGA/20.1/modelsim_ase/linuxaloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+/home/guillen/Documents/TEC/Proyecto_dise駉/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompre..."
 # 
 # stdin: <EOF>
-vlog -reportprogress 300 -work work /home/guillen/intelFPGA_lite/22.1std/tb_m_descompresor.sv
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:01:15 on Apr 17,2024
-# vlog -reportprogress 300 -work work /home/guillen/intelFPGA_lite/22.1std/tb_m_descompresor.sv 
-# -- Compiling module tb_m_descompresor
-# 
-# Top level modules:
-# 	tb_m_descompresor
-# End time: 16:01:16 on Apr 17,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vsim work.tb_m_descompresor
-# vsim work.tb_m_descompresor 
-# Start time: 16:01:22 on Apr 17,2024
-# Loading sv_std.std
-# Loading work.tb_m_descompresor
-# Loading work.m_descompresor
-add wave -position end sim:/tb_m_descompresor/*
-run
-# Instrucci贸n en PC = 00000000: b0200005
-# Instrucci贸n en PC = 00000000: b0200005
-# Instrucci贸n en PC = 00000001: b0400190
-# Instrucci贸n en PC = 00000001: b0400190
-# Instrucci贸n en PC = 00000002: b061adb0
-# Instrucci贸n en PC = 00000002: b061adb0
-# Instrucci贸n en PC = 00000003: 80000000
-# Instrucci贸n en PC = 00000003: 80000000
-# Instrucci贸n en PC = 00000004: 80000000
-# Instrucci贸n en PC = 00000004: 80000000
-run -all
-# Instrucci贸n en PC = 00000005: 80000001
-# Instrucci贸n en PC = 00000005: 80000001
-# Instrucci贸n en PC = 00000006: b087adb0
-# Instrucci贸n en PC = 00000006: b087adb0
-# Instrucci贸n en PC = 00000007: b0a00001
-# Instrucci贸n en PC = 00000007: b0a00001
-# Instrucci贸n en PC = 00000008: b0c00001
-# Instrucci贸n en PC = 00000008: b0c00001
-# ** Note: $stop    : /home/guillen/intelFPGA_lite/22.1std/tb_m_descompresor.sv(40)
-#    Time: 180 ps  Iteration: 0  Instance: /tb_m_descompresor
-# Break in Module tb_m_descompresor at /home/guillen/intelFPGA_lite/22.1std/tb_m_descompresor.sv line 40
-# End time: 18:57:51 on Apr 17,2024, Elapsed time: 2:56:29
-# Errors: 0, Warnings: 0

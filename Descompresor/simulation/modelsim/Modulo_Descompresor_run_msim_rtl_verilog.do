@@ -45,5 +45,5 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vlog -sv -work work +incdir+/home/guillen/intelFPGA_lite/22.1std {/home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv}
+vlog -sv -work work +incdir+/home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor {/home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv}
 

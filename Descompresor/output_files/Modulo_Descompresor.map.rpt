@@ -1,5 +1,5 @@
 Analysis & Synthesis report for Modulo_Descompresor
-Wed Apr 17 15:59:15 2024
+Fri May 10 19:29:19 2024
 Quartus Prime Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
 
 
@@ -47,7 +47,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed Apr 17 15:59:15 2024          ;
+; Analysis & Synthesis Status     ; Successful - Fri May 10 19:29:19 2024          ;
 ; Quartus Prime Version           ; 22.1std.2 Build 922 07/20/2023 SC Lite Edition ;
 ; Revision Name                   ; Modulo_Descompresor                            ;
 ; Top-level Entity Name           ; m_descompresor                                 ;
@@ -171,15 +171,15 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                  ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                              ; Library ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------------------------+---------+
-; m_descompresor.sv                ; yes             ; User SystemVerilog HDL File  ; /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv    ;         ;
-; traduction_table.txt             ; yes             ; Auto-Found File              ; /home/guillen/intelFPGA_lite/22.1std/traduction_table.txt ;         ;
-; final_code.txt                   ; yes             ; Auto-Found File              ; /home/guillen/intelFPGA_lite/22.1std/final_code.txt       ;         ;
-+----------------------------------+-----------------+------------------------------+-----------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                                 ;
++-----------------------------------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path                          ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                                                    ; Library ;
++-----------------------------------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; m_descompresor.sv                                         ; yes             ; User SystemVerilog HDL File  ; /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv ;         ;
+; /home/guillen/intelFPGA_lite/22.1std/traduction_table.txt ; yes             ; Auto-Found File              ; /home/guillen/intelFPGA_lite/22.1std/traduction_table.txt                                                                                       ;         ;
+; /home/guillen/intelFPGA_lite/22.1std/final_code.txt       ; yes             ; Auto-Found File              ; /home/guillen/intelFPGA_lite/22.1std/final_code.txt                                                                                             ;         ;
++-----------------------------------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +----------------------------------------------------------------+
@@ -5254,69 +5254,69 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +---------------+-------------------------+----------------------------------------+
 ; Register name ; Reason for Removal      ; Registers Removed due to This Register ;
 +---------------+-------------------------+----------------------------------------+
-; final_code~16 ; Stuck at GND            ; final_code~58                          ;
+; final_code~16 ; Stuck at GND            ; final_code~135                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~31 ; Stuck at GND            ; final_code~73                          ;
+; final_code~31 ; Stuck at GND            ; final_code~150                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~30 ; Stuck at GND            ; final_code~72                          ;
+; final_code~30 ; Stuck at GND            ; final_code~149                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~29 ; Stuck at GND            ; final_code~71                          ;
+; final_code~29 ; Stuck at GND            ; final_code~148                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~28 ; Stuck at GND            ; final_code~70                          ;
+; final_code~28 ; Stuck at GND            ; final_code~147                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~27 ; Stuck at GND            ; final_code~69                          ;
+; final_code~27 ; Stuck at GND            ; final_code~146                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~26 ; Stuck at GND            ; final_code~68                          ;
+; final_code~26 ; Stuck at GND            ; final_code~145                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~25 ; Stuck at GND            ; final_code~67                          ;
+; final_code~25 ; Stuck at GND            ; final_code~144                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~24 ; Stuck at GND            ; final_code~66                          ;
+; final_code~24 ; Stuck at GND            ; final_code~143                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~23 ; Stuck at GND            ; final_code~65                          ;
+; final_code~23 ; Stuck at GND            ; final_code~142                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~22 ; Stuck at GND            ; final_code~64                          ;
+; final_code~22 ; Stuck at GND            ; final_code~141                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~21 ; Stuck at GND            ; final_code~63                          ;
+; final_code~21 ; Stuck at GND            ; final_code~140                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~20 ; Stuck at GND            ; final_code~62                          ;
+; final_code~20 ; Stuck at GND            ; final_code~139                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~19 ; Stuck at GND            ; final_code~61                          ;
+; final_code~19 ; Stuck at GND            ; final_code~138                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~18 ; Stuck at GND            ; final_code~60                          ;
+; final_code~18 ; Stuck at GND            ; final_code~137                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~17 ; Stuck at GND            ; final_code~59                          ;
+; final_code~17 ; Stuck at GND            ; final_code~136                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~0  ; Stuck at GND            ; final_code~42                          ;
+; final_code~0  ; Stuck at GND            ; final_code~119                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~15 ; Stuck at GND            ; final_code~57                          ;
+; final_code~15 ; Stuck at GND            ; final_code~134                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~14 ; Stuck at GND            ; final_code~56                          ;
+; final_code~14 ; Stuck at GND            ; final_code~133                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~13 ; Stuck at GND            ; final_code~55                          ;
+; final_code~13 ; Stuck at GND            ; final_code~132                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~12 ; Stuck at GND            ; final_code~54                          ;
+; final_code~12 ; Stuck at GND            ; final_code~131                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~11 ; Stuck at GND            ; final_code~53                          ;
+; final_code~11 ; Stuck at GND            ; final_code~130                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~10 ; Stuck at GND            ; final_code~52                          ;
+; final_code~10 ; Stuck at GND            ; final_code~129                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~9  ; Stuck at GND            ; final_code~51                          ;
+; final_code~9  ; Stuck at GND            ; final_code~128                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~8  ; Stuck at GND            ; final_code~50                          ;
+; final_code~8  ; Stuck at GND            ; final_code~127                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~7  ; Stuck at GND            ; final_code~49                          ;
+; final_code~7  ; Stuck at GND            ; final_code~126                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~6  ; Stuck at GND            ; final_code~48                          ;
+; final_code~6  ; Stuck at GND            ; final_code~125                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~5  ; Stuck at GND            ; final_code~47                          ;
+; final_code~5  ; Stuck at GND            ; final_code~124                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~4  ; Stuck at GND            ; final_code~46                          ;
+; final_code~4  ; Stuck at GND            ; final_code~123                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~3  ; Stuck at GND            ; final_code~45                          ;
+; final_code~3  ; Stuck at GND            ; final_code~122                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~2  ; Stuck at GND            ; final_code~44                          ;
+; final_code~2  ; Stuck at GND            ; final_code~121                         ;
 ;               ; due to stuck port clock ;                                        ;
-; final_code~1  ; Stuck at GND            ; final_code~43                          ;
+; final_code~1  ; Stuck at GND            ; final_code~120                         ;
 ;               ; due to stuck port clock ;                                        ;
 +---------------+-------------------------+----------------------------------------+
 
@@ -5375,7 +5375,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:04     ;
+; Top            ; 00:00:03     ;
 +----------------+--------------+
 
 
@@ -5385,118 +5385,118 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.2 Build 922 07/20/2023 SC Lite Edition
-    Info: Processing started: Wed Apr 17 15:58:53 2024
+    Info: Processing started: Fri May 10 19:29:03 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Modulo_Descompresor -c Modulo_Descompresor
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file m_descompresor.sv
-    Info (12023): Found entity 1: m_descompresor File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 1
+    Info (12023): Found entity 1: m_descompresor File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_m_descompresor.sv
-    Info (12023): Found entity 1: tb_m_descompresor File: /home/guillen/intelFPGA_lite/22.1std/tb_m_descompresor.sv Line: 1
+    Info (12023): Found entity 1: tb_m_descompresor File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/tb_m_descompresor.sv Line: 1
 Info (12127): Elaborating entity "m_descompresor" for the top level hierarchy
-Warning (10850): Verilog HDL warning at m_descompresor.sv(11): number of words (24) in memory file does not match the number of elements in the address range [0:400] File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 11
-Warning (10850): Verilog HDL warning at m_descompresor.sv(12): number of words (3) in memory file does not match the number of elements in the address range [0:9] File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 12
-Warning (10855): Verilog HDL warning at m_descompresor.sv(10): initial value for variable translator_table should be constant File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 10
-Warning (10235): Verilog HDL Always Construct warning at m_descompresor.sv(19): variable "counter_tmp" is read inside the Always Construct but isn't in the Always Construct's Event Control File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 19
-Warning (10235): Verilog HDL Always Construct warning at m_descompresor.sv(20): variable "buffer" is read inside the Always Construct but isn't in the Always Construct's Event Control File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 20
-Warning (10762): Verilog HDL Case Statement warning at m_descompresor.sv(26): can't check case statement for completeness because the case expression has too many possible states File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 26
-Warning (10240): Verilog HDL Always Construct warning at m_descompresor.sv(16): inferring latch(es) for variable "less_pc", which holds its previous value in one or more paths through the always construct File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 16
-Warning (10240): Verilog HDL Always Construct warning at m_descompresor.sv(16): inferring latch(es) for variable "counter_tmp", which holds its previous value in one or more paths through the always construct File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 16
-Warning (10240): Verilog HDL Always Construct warning at m_descompresor.sv(16): inferring latch(es) for variable "buffer", which holds its previous value in one or more paths through the always construct File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 16
-Warning (10030): Net "final_code.data_a" at m_descompresor.sv(4) has no driver or initial value, using a default initial value '0' File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 4
-Warning (10030): Net "final_code.waddr_a" at m_descompresor.sv(4) has no driver or initial value, using a default initial value '0' File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 4
-Warning (10030): Net "translator_table[0][31..0]" at m_descompresor.sv(5) has no driver or initial value, using a default initial value '0' File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 5
-Warning (10030): Net "translator_table[1][31..0]" at m_descompresor.sv(5) has no driver or initial value, using a default initial value '0' File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 5
-Warning (10030): Net "translator_table[2][31..0]" at m_descompresor.sv(5) has no driver or initial value, using a default initial value '0' File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 5
-Warning (10030): Net "final_code.we_a" at m_descompresor.sv(4) has no driver or initial value, using a default initial value '0' File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 4
-Info (10041): Inferred latch for "less_pc[0]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[1]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[2]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[3]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[4]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[5]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[6]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[7]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[8]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[9]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[10]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[11]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[12]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[13]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[14]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[15]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[16]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[17]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[18]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[19]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[20]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[21]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[22]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[23]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[24]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[25]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[26]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[27]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[28]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[29]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[30]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "less_pc[31]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[0]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[1]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[2]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[3]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[4]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[5]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[6]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[7]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[8]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[9]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[10]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[11]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[12]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[13]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[14]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[15]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[16]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[17]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[18]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[19]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[20]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[21]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[22]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[23]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[24]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[25]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[26]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[27]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[28]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[29]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[30]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "buffer[31]" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "counter_tmp.0001" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Info (10041): Inferred latch for "counter_tmp.0000" at m_descompresor.sv(24) File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
+Warning (10850): Verilog HDL warning at m_descompresor.sv(11): number of words (24) in memory file does not match the number of elements in the address range [0:400] File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 11
+Warning (10850): Verilog HDL warning at m_descompresor.sv(12): number of words (3) in memory file does not match the number of elements in the address range [0:9] File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 12
+Warning (10855): Verilog HDL warning at m_descompresor.sv(10): initial value for variable translator_table should be constant File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 10
+Warning (10235): Verilog HDL Always Construct warning at m_descompresor.sv(21): variable "counter_tmp" is read inside the Always Construct but isn't in the Always Construct's Event Control File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 21
+Warning (10235): Verilog HDL Always Construct warning at m_descompresor.sv(22): variable "buffer" is read inside the Always Construct but isn't in the Always Construct's Event Control File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 22
+Warning (10762): Verilog HDL Case Statement warning at m_descompresor.sv(29): can't check case statement for completeness because the case expression has too many possible states File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 29
+Warning (10240): Verilog HDL Always Construct warning at m_descompresor.sv(16): inferring latch(es) for variable "less_pc", which holds its previous value in one or more paths through the always construct File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 16
+Warning (10240): Verilog HDL Always Construct warning at m_descompresor.sv(16): inferring latch(es) for variable "counter_tmp", which holds its previous value in one or more paths through the always construct File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 16
+Warning (10240): Verilog HDL Always Construct warning at m_descompresor.sv(16): inferring latch(es) for variable "buffer", which holds its previous value in one or more paths through the always construct File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 16
+Warning (10030): Net "final_code.data_a" at m_descompresor.sv(4) has no driver or initial value, using a default initial value '0' File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 4
+Warning (10030): Net "final_code.waddr_a" at m_descompresor.sv(4) has no driver or initial value, using a default initial value '0' File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 4
+Warning (10030): Net "translator_table[0][31..0]" at m_descompresor.sv(5) has no driver or initial value, using a default initial value '0' File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 5
+Warning (10030): Net "translator_table[1][31..0]" at m_descompresor.sv(5) has no driver or initial value, using a default initial value '0' File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 5
+Warning (10030): Net "translator_table[2][31..0]" at m_descompresor.sv(5) has no driver or initial value, using a default initial value '0' File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 5
+Warning (10030): Net "final_code.we_a" at m_descompresor.sv(4) has no driver or initial value, using a default initial value '0' File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 4
+Info (10041): Inferred latch for "less_pc[0]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[1]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[2]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[3]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[4]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[5]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[6]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[7]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[8]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[9]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[10]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[11]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[12]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[13]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[14]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[15]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[16]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[17]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[18]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[19]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[20]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[21]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[22]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[23]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[24]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[25]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[26]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[27]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[28]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[29]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[30]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "less_pc[31]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[0]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[1]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[2]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[3]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[4]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[5]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[6]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[7]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[8]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[9]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[10]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[11]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[12]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[13]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[14]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[15]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[16]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[17]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[18]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[19]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[20]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[21]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[22]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[23]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[24]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[25]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[26]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[27]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[28]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[29]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[30]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "buffer[31]" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "counter_tmp.0001" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Info (10041): Inferred latch for "counter_tmp.0000" at m_descompresor.sv(27) File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
 Info (276014): Found 1 instances of uninferred RAM logic
-    Info (276007): RAM logic "final_code" is uninferred due to asynchronous read logic File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 4
-Critical Warning (127005): Memory depth (512) in the design file differs from memory depth (401) in the Memory Initialization File "/home/guillen/intelFPGA_lite/22.1std/db/Modulo_Descompresor.ram0_m_descompresor_e43d43ef.hdl.mif" -- setting initial value for remaining addresses to 0
-Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/guillen/intelFPGA_lite/22.1std/db/Modulo_Descompresor.ram0_m_descompresor_e43d43ef.hdl.mif" contains "don't care" values -- overwriting them with 0s
-Warning (13012): Latch less_pc[0] has unsafe behavior File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Warning (13012): Latch less_pc[1] has unsafe behavior File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Warning (13012): Latch less_pc[2] has unsafe behavior File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Warning (13012): Latch less_pc[3] has unsafe behavior File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Warning (13012): Latch less_pc[4] has unsafe behavior File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Warning (13012): Latch less_pc[5] has unsafe behavior File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Warning (13012): Latch less_pc[6] has unsafe behavior File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Warning (13012): Latch less_pc[7] has unsafe behavior File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-Warning (13012): Latch less_pc[8] has unsafe behavior File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/intelFPGA_lite/22.1std/m_descompresor.sv Line: 24
+    Info (276007): RAM logic "final_code" is uninferred due to asynchronous read logic File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 4
+Critical Warning (127005): Memory depth (512) in the design file differs from memory depth (401) in the Memory Initialization File "/home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/db/Modulo_Descompresor.ram0_m_descompresor_e43d43ef.hdl.mif" -- setting initial value for remaining addresses to 0
+Warning (127007): Memory Initialization File or Hexadecimal (Intel-Format) File "/home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/db/Modulo_Descompresor.ram0_m_descompresor_e43d43ef.hdl.mif" contains "don't care" values -- overwriting them with 0s
+Warning (13012): Latch less_pc[0] has unsafe behavior File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Warning (13012): Latch less_pc[1] has unsafe behavior File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Warning (13012): Latch less_pc[2] has unsafe behavior File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Warning (13012): Latch less_pc[3] has unsafe behavior File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Warning (13012): Latch less_pc[4] has unsafe behavior File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Warning (13012): Latch less_pc[5] has unsafe behavior File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Warning (13012): Latch less_pc[6] has unsafe behavior File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Warning (13012): Latch less_pc[7] has unsafe behavior File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+Warning (13012): Latch less_pc[8] has unsafe behavior File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal counter_tmp.0001_1166 File: /home/guillen/Documents/TEC/Proyecto_diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/Descompresor/m_descompresor.sv Line: 27
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -5505,9 +5505,9 @@ Info (21057): Implemented 171 device resources after synthesis - the final resou
     Info (21059): Implemented 32 output pins
     Info (21061): Implemented 107 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 36 warnings
-    Info: Peak virtual memory: 471 megabytes
-    Info: Processing ended: Wed Apr 17 15:59:15 2024
-    Info: Elapsed time: 00:00:22
-    Info: Total CPU time (on all processors): 00:00:38
+    Info: Peak virtual memory: 468 megabytes
+    Info: Processing ended: Fri May 10 19:29:19 2024
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:31
 
 

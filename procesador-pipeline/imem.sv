@@ -6,7 +6,7 @@ module imem (input logic [31:0] pc,
 	initial
 	
 		//Lee de memoria las intrucciones
-		$readmemh("/home/guillen/Documents/TEC/Proyecto diseño/Proyecto_de_Dise-o_Compresor_y_Descompresor_de_codigo_ensamblador-1/procesador-pipeline/instructions.txt", imem_ROM);
+		$readmemh("/home/guillen/Documents/VectorArchitecture-Develop/procesador-pipeline/instructions.txt", imem_ROM);
 		
 		
 	assign instruction = imem_ROM[pc[31:0]];
