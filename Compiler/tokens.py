@@ -15,7 +15,7 @@ def detect_patterns(input_file):
     
     # Create tokens with lines repeated at least twice
     tokens = {}
-    letras = "abcdefghijklmnopqrstuvwxyz"
+    letras = "0123456789abcdef"
     token_count = 0
     for linea, repeticiones in patrones.items():
         if repeticiones >= 2:
